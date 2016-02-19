@@ -1,0 +1,30 @@
+﻿html {
+    background-color: gainsboro;
+}
+
+body {
+    margin: 0 auto;
+    padding: 70px;
+    max-width: 800px;
+    font-family: "Palatino Linotype, Book Antiqua, Palatino, serif";
+    font-size: 16px;
+    line-height: 150%;
+    background-color: white;
+    font-weight: bold;
+    }
+h1 {text-align: center
+}
+a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+#текст p {color: black;
+    font-style: normal;
+    text-align: left;
+}
