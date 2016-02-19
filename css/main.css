@@ -1,0 +1,146 @@
+html {
+    background-color: gainsboro;
+}
+body {
+    margin : 0 auto;
+    padding: 50px;
+    max-width : 1062px;
+	max-height : 200%;
+    line-height : 150%;
+    background-color : white;
+	font-family: "Open Sans", sans-serif;;
+    }
+h1 {
+	font-size: 50px;
+	margin: 10px 40px 40px 5px;
+	font-weight : bold;
+}
+
+div ul {
+	display: inline-block; /* ссылки становятся встроенными блоками */
+    list-style: none;
+    margin: 0;
+	padding: 10px 0px 0px 0px;
+   }
+ 
+   div li {
+	display: inline-block;
+	height: 40px;
+  	line-height: 40px;
+    color: white;
+	text-decoration: none; 
+    text-align: center;
+   }
+
+.leftcol {
+	width: 145px;
+  	height: 40px;
+	position: relative;
+    background: #4f4e4e;
+}
+
+.currentcol {
+	width: 100px;
+  	height: 40px;
+    background: #303030;
+    text-align: center; 
+}
+
+.centercol {
+	width: 148px;
+  	height: 40px;
+    background: #4f4e4e;
+}
+
+.rightcol {
+	width: 574px;
+  	height: 40px;
+	text-align: left;
+	position: relative;
+	right: 49px;
+	padding-left: 50px;
+    background: #4f4e4e;
+}
+
+.leftmenu li {
+	border: 1px solid black;
+	padding-left: 10px;
+	height: 40px;
+	width: 200px;
+}
+
+.column {
+	text-align: left;
+	vertical-align: top;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	color: dimgrey;
+}
+
+.img {
+	float: right;
+	margin: 10px;
+	position: inherit;
+	}
+
+table {
+    width: 980px;
+}
+
+   td.column {
+	width: 250px;
+	height: 50px;
+	   padding-left: 20px;
+	   padding-top: 20px;
+   }
+
+   td.img {
+    width: 698px;
+    vertical-align: top;  
+   }
+
+.tel {
+	text-align: center;
+	color: black;
+}
+
+p {
+	display: block;
+	font-weight: normal;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	padding-left: 300px;
+	width: 650px;
+  	height: 200px;
+}
+
+.menu-1 {
+    padding: 10px;
+   }
+
+   .menu-1 li {
+    float: left; 
+    margin: 0; 
+	   height: 40px;
+  	line-height: 40px;
+	   font-size: 14px;
+   }
+
+   .menu-1 a {
+    display: inline-block;
+	width: 175px;
+  	height: 47px;
+    color: black;
+    background: #e1e1e1;
+    text-decoration: none;
+    text-align: center;
+   }
+
+   .menu-1 li.current {
+    color: black;
+	width: 99px;
+  	height: 47px;
+	text-decoration: underline;
+    background: #e1e1e1;
+    text-align: center;
+   }
