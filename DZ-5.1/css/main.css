@@ -1,0 +1,29 @@
+html {
+    background-color: gray;
+}
+body {
+    margin : 0 auto;
+    padding: 80px;
+    max-width : 600px;
+    background-color : white;
+    }
+
+.tr, td {
+		border: 8px solid black;
+		padding: 10px;
+		text-align: center;
+		vertical-align: middle;
+}
+
+.red {
+	background-color: #ff543d;
+}
+.blue {
+	background-color: #094984;
+}
+.yellow {
+	background-color: #fffb69;
+}
+.black {
+	background-color: #121e19;
+}
