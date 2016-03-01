@@ -8,139 +8,127 @@ body {
 	max-height : 200%;
     line-height : 150%;
     background-color : white;
-	font-family: "Open Sans", sans-serif;;
+	font-family: "Open Sans", sans-serif;
     }
 h1 {
 	font-size: 50px;
 	margin: 10px 40px 40px 5px;
 	font-weight : bold;
+	
 }
 
 div ul {
-	display: inline-block; /* ссылки становятся встроенными блоками */
-    list-style: none;
-    margin: 0;
-	padding: 10px 0px 0px 0px;
+	display: inline-block;
+	line-height: 40px;
+	height: 41px;
+	width: 967px;
+	background-color: #4f4e4e;
    }
  
    div li {
 	display: inline-block;
-	height: 40px;
-  	line-height: 40px;
     color: white;
-	text-decoration: none; 
     text-align: center;
+	 height: 41px;
    }
-
+div a {
+	color: white;
+	text-decoration: none;
+}
 .leftcol {
 	width: 145px;
-  	height: 40px;
-	position: relative;
-    background: #4f4e4e;
 }
 
 .currentcol {
 	width: 100px;
-  	height: 40px;
     background: #303030;
-    text-align: center; 
+    text-align: center;
+	border: darkgrey;
+	border-style: solid;
+	border-width: 0px 1px;
 }
 
 .centercol {
-	width: 148px;
-  	height: 40px;
-    background: #4f4e4e;
+	width: 163px;
 }
 
 .rightcol {
-	width: 574px;
-  	height: 40px;
+	width: 500px;
 	text-align: left;
-	position: relative;
-	right: 49px;
-	padding-left: 50px;
-    background: #4f4e4e;
+	padding-left: 40px;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+}
+
+
+.leftmenu {
+	float: left;
+	margin-top: 40px;
+	width: 20%;
 }
 
 .leftmenu li {
 	border: 1px solid black;
 	padding-left: 10px;
 	height: 40px;
-	width: 200px;
+	text-decoration: none;
 }
 
-.column {
-	text-align: left;
-	vertical-align: top;
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
-	color: dimgrey;
+.leftmenu a {
+	text-decoration: none;
+	color: #656363;
+	vertical-align: middle;
+	line-height: 40px;
+	padding-left: 24px;
 }
 
+.leftmenu li:hover {
+	background-color: #f9f9f9;
+	font-weight: bold;
+	padding-left: 37px;
+}
 .img {
 	float: right;
-	margin: 10px;
-	position: inherit;
-	}
-
-table {
-    width: 980px;
+	width: 75%;
+	margin-top: 40px;
+	margin-left: 0px;
+	padding: 10px;
 }
-
-   td.column {
-	width: 250px;
-	height: 50px;
-	   padding-left: 20px;
-	   padding-top: 20px;
-   }
-
-   td.img {
-    width: 698px;
-    vertical-align: top;  
-   }
-
-.tel {
-	text-align: center;
-	color: black;
-}
-
+	
 p {
 	display: block;
-	font-weight: normal;
-	font-family: "Open Sans", sans-serif;
+	clear: both;
 	font-size: 13px;
-	padding-left: 300px;
-	width: 650px;
-  	height: 200px;
+	margin-left: 280px;
+	width: 620px;
+  	height: 220px;
 }
 
 .menu-1 {
-    padding: 10px;
+	height: 42px;
+	width: 950px;
+	background: #e1e1e1;
    }
 
    .menu-1 li {
     float: left; 
     margin: 0; 
-	   height: 40px;
   	line-height: 40px;
-	   font-size: 14px;
+	font-size: 14px;
    }
 
    .menu-1 a {
     display: inline-block;
-	width: 175px;
-  	height: 47px;
+	width: 190px;
     color: black;
-    background: #e1e1e1;
     text-decoration: none;
     text-align: center;
    }
 
-   .menu-1 li.current {
+   .menu-1 a:hover {
     color: black;
-	width: 99px;
-  	height: 47px;
-	text-decoration: underline;
-    background: #e1e1e1;
-    text-align: center;
+   	text-decoration: underline;
    }
