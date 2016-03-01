@@ -1,0 +1,394 @@
+html body {
+	font-family: helveticaneuecyrlight,tahoma,sans-serif;
+	text-decoration: none;
+}
+html {
+    background-color: black;
+}
+body {
+    margin : 0 auto;
+	padding: 15px 45px 0px 45px;
+	max-width : 1000px;
+	line-height : 100%;
+    background-color : white;
+	font-size: 12px;
+}
+
+.tel,.formtop,.kontakti {
+		float: right;
+}
+
+.tel {
+	width: 250px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.formtop {
+	background: #13466a; 
+	width: 530px;
+	height: 20px;
+	padding: 10px;
+	padding-left: 30px;
+	margin-right: 1px;
+	position: relative;
+	border-radius: 5px
+}
+.figura {
+		position: absolute;
+		top: 9px;
+		left: 5px;
+		right: 25px;
+}
+.formtop a {
+	color: white;
+	text-decoration: none;
+}
+.kontakti {
+	border: darkgrey;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+    padding: 5px;
+	margin-top: 6px;
+	margin-left: 5px;
+	margin-right: 45px;
+}
+/*
+.clierfix::after{
+			content:'';
+			clear:both;
+			display:block;
+}
+*/
+/*
+.formtop a: last-of-type{
+            color:#bbb;
+  			text-decoration: underline;
+}
+*/
+	
+/*
+.formtop zabil {
+	color: gainsboro;
+	text-decoration: underline;
+}
+*/
+
+
+
+.image {
+	margin-left: 45px;
+	height: 280px;
+	width: 909px;
+}
+
+.nav-top {
+	position: relative;
+	margin-top: 3px;
+	margin-left: 45px;
+	width: 909px;
+	height: 32px;
+	border-radius: 3px;
+	background: linear-gradient(to bottom,#4d5663,#010101);
+	border: 1px solid black;
+	
+/*
+	border-top: 1px solid #0a1030;  
+	border-bottom: 1px solid  #0a1030;
+	border-left: 1px solid #0b1022;  
+	border-right: 1px solid  #0b1022;
+*/
+}
+.nav-top ul {
+		display: inline-block;
+		width: 530px;
+		margin-left: 125px;
+/*		padding: 3px;*/
+}
+.nav-top ul li {
+		display: inline-block;
+		height: 20px;
+		padding-right: 20px;
+		padding-left: 15px;
+		padding-top: 5px;
+		background-color: transparent;
+		border-radius: 10px;
+}
+.nav-top li:hover {
+		background:linear-gradient(to bottom,#1f6787,#0c3357);
+}
+.nav-top li:hover a {
+		color: #fff;
+}
+.nav-top ul li a {
+		text-align: center;
+		vertical-align: middle;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 14px;
+		color: #8a9296;
+}
+.nav-top span {
+		display: inline-block;
+		font-size:12px;
+}
+.nav-top span:first-of-type{
+		margin-left: 48px;
+
+}
+.nav-top span:nth-child(odd){
+		color: #8a9296;
+}
+.nav-top span:nth-child(even){
+		color: #0e5383;
+		margin-top: 8px;
+}
+.korzina {
+	display:inline-block;
+	position:absolute;
+	top: 4px;
+	right: 206px;
+	
+}
+
+.poisk {
+	margin-left: 45px;
+	margin-top: 5px;
+}
+
+/*
+.poisk {
+	position: absolute;
+	top: 380px;
+	left: 45px;
+	width: 905px;
+	height: 140px;
+}
+.poisk1 {
+	float: left;
+	width: 33%;
+}
+.poisk2 {
+	width: 23%;
+	margin: 0 auto;
+}
+
+.poisk3 {
+	float: right;
+	width: 33%;
+}
+.marka1,.marka2,.diam1,.diam2 {
+	float: left;
+}
+ 
+.main {
+    background: white;
+	border: 10px grey;
+    padding: 10px;
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: center;
+   }
+
+
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+*/
+/*
+section {
+	clear: both;
+}
+*/
+
+
+.aside-left  {
+	float: left;
+	width: 19%;
+	line-height: 30px;
+	text-align: right;
+	margin-left: 45px;
+	padding: 5px;
+	position: relative;
+	
+}
+.aside-left ul {
+	margin-left: 45px;
+/*
+	text-decoration: none;
+	color: #465961;
+*/
+	
+}
+.aside-right {
+	position: relative;
+	float: left;
+	width: 18%;
+	line-height: 34px;
+	text-align: center;
+	margin-right: 45px;
+	padding: 5px;
+}
+.tochkatop {
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	text-align: left;
+	width: 170px;
+	height: 28px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.aside-left span {
+	position: absolute;
+	color: #114165;
+	font-size: 12px;
+	font-weight: bold;
+}
+.aside-right span {
+	position: absolute;
+	color: #114165;
+	font-size: 12px;
+	font-weight: bold;
+}
+.aside-left ul li a {
+	color: #465961;
+	line-height: 35px;
+}
+.aside-right ul li {
+	color: #465961;
+	line-height: 45px;
+}
+.tochka {
+	border: darkgrey;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	text-align: left;
+	padding-left: 10px;
+	height: 28px;
+/*	padding-bottom: 5px;*/
+	width: 120px;
+	height: 28px;
+}
+.shini,.diski,.bolti {
+	width: 100px;
+	padding-right: 10px;
+/*	padding: 0px;*/
+/*	margin: 0px;*/
+}
+.aside-right ul li {
+	margin-left: 20px;
+	padding-left: 0px;
+	text-align: left;
+	
+}
+.button {
+	background-color: #0e385d;
+	color: white;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 30px;
+	margin-right: 60px;
+	height: 27px;
+	width: 81px;
+}
+
+.sidebar{
+	float: left;
+	margin: 0 auto;
+	padding-left:20px;
+	width: 480px;
+	height: 620px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom,#e5e8e9,#93a7b0);
+}
+
+.sidebar section {
+	margin: 15px 5px 5px 5px;
+	float: left;
+	width: 144px;
+	height: 190px;
+	text-align: center;
+	}
+	.sidebar section img {
+	border-radius: 10px;
+}
+
+.sidebar section a{
+	font-size: 15px;
+	color: #206987;
+}
+
+.sidebar section span:first-of-type{
+	font-size: 12px;
+}
+.sidebar section span:last-of-type{
+	font-size: 15px;
+	color: #083065;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.tm {
+	clear: both;
+	margin-left: 145px;
+	margin-top: 25px;
+}
+
+.footer {
+	height: 100px;
+	width: 910px;
+	margin-left: 45px;
+	margin-top: 30px;
+	background-color: #213a4d;
+	margin-bottom: 0px;
+}
+
+.nav-bottom {
+    	float: right;
+		height: 36px;
+		width: 910px;
+		text-align: center;
+}
+
+/*
+.nav-bottom li {
+		display: inline-block;
+		color: white;
+		height: 36px;
+		margin-left: 28px;
+}
+*/
+.nav-bottom a {
+		display: inline-block;
+		height: 15px;
+		width: 77px;
+		padding: 10px 0px;
+		margin-left: 1px;
+		text-decoration: none;
+}
+.footer nav a:hover{
+		color:#52abcb;
+}
+
+.footer span {
+		color: #7f4740;
+	/*	display:block;	*/
+		font-size: 12px;
+		font-weight: 500;
+		width: 150px;
+		margin: 15px 0px 0px 370px;
+}
+
+
+.footer a, .footer nav {
+		color: white;
+}
