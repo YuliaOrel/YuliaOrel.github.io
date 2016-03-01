@@ -1,18 +1,15 @@
 html {
-	background: #fff url(../img/back2.jpg) repeat-x top 4px left;
+	background: #fff url(../img/back2.jpg) repeat-x top 2px left;
 	position: relative;
 }
 
-
 body {
     margin : 0 auto;
-    max-width : 1003px;
+    max-width : 1002px;
 /*	max-height : 30%;*/
     line-height : 150%;
 	font-family: "Open Sans", sans-serif;
 	background-color: white;
-	-webkit-box-shadow: 0px 6px 16px 5px rgba(0,0,0,0.69);
-	-moz-box-shadow: 0px 6px 16px 5px rgba(0,0,0,0.69);
 	box-shadow: 0px 6px 16px 5px rgba(0,0,0,0.69);
     }
 
@@ -20,17 +17,11 @@ h2 {
 	font-weight: bold;
 }
 
-
-
-
 .logo {
 	float: left;
 	width: 50%;
 	padding-top: 70px;
 }
-
-
-
 
 .kontakti {
 	color: #41a1b9;
@@ -40,10 +31,6 @@ h2 {
 	width: 20%;
 	padding-top: 60px;
 }
-
-
-
-
 
 .strani {
 	clear: right;
@@ -78,20 +65,15 @@ h2 {
     cursor: pointer;
 }
 
-
-
 .image {
 	padding-top: 20px;
 	max-height: 239px;
 }
 
-
-
-
 ul {
     display: block;
-    margin: 0;
-    padding: 0;
+    margin-left: 1px;
+	height: 39px;
     list-style: none;
 	width: 1000px;
 }
@@ -104,16 +86,18 @@ ul:after {
 ul.menu > li {
     float: left;
 	position: relative;
-	-webkit-box-shadow: 0px 2px 16px 1px rgba(0,0,0,0.69);
-	-moz-box-shadow: 0px 2px 16px 1px rgba(0,0,0,0.69);
+	width: 142.8px;
 	box-shadow: 0px 2px   16px 1px rgba(0,0,0,0.69);
 }
 ul.menu > li > a {
     display: block;
-    padding: 10px;
+    padding-top: 10px;
     color: white;
     background-color: black;
     text-decoration: none;
+	text-align: center;
+	height: 30px;
+	vertical-align: middle;
 }
 
 ul.menu > li > a:hover {
@@ -151,22 +135,12 @@ ul.menu > li:hover > ul.submenu {
 	margin-left:5px;
 }
 
-
-
-
-.put {
-	width: 220px;
-}
-.otzivi {
-	width: 200px;
-}
-.part {
-	width: 200px;
+.put,.part,.otzivi {
+	width: 149px;
 }
 
-
-
-.info {float: left;
+.info {
+		float: left;
 		width: 30%;
 		height: 485px;
 		background-color:#edeef0;
@@ -182,14 +156,12 @@ ul.menu > li:hover > ul.submenu {
 
 .news {
 	float: right;
-		width: 30%;
-	background-color:#edeef0;
+	width: 30%;
+	background-color: #edeef0;
 	text-align: center;
 	border-left: 1px solid;
-		border-color: #c7cacf;
+	border-color: #c7cacf;
 }
-
-
 
 .copy {
 	clear: both;
