@@ -613,10 +613,6 @@
 	margin-right: 27px;
 	color: #ffffff;
 }
-.footer__menu__a:hover {
-	border-bottom: 1px solid #edbfff;
-}
-
 .footer__Designed__AS{
 	position: relative;
 	width: 140px;
@@ -1153,7 +1149,7 @@
 	left: 1131px;
 }
 }
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 0px) and (max-width: 479px){
 	.body {
 		height: 2525px;
 	}
@@ -1438,18 +1434,15 @@ ul.menu > li:hover > ul.submenu {
 	margin-left: 240px;
 	margin-top: 255px;
 }
+
 .trust-marks-before{
 	height: 423px;
 	top: 1009px;
 	left: 0px;
 }
-.trust-marks{
-	width: 296px;
-	height: 64px;
-	top: 1015px;
-	left: 1102px;
-	float: left;
-}
+
+	
+/*
  .trust-marks:nth-child(1){
  }
   .trust-marks:nth-child(2){
@@ -1470,6 +1463,7 @@ ul.menu > li:hover > ul.submenu {
 	background-position:-373px 0px;
 	width:85px;
  }
+*/
 .main__gray{
 	opacity: 0;
 }
