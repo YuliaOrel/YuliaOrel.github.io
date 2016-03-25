@@ -1,7 +1,6 @@
 .header{
-	background: url(../img/bg-top.jpg) no-repeat;
+	background: url(../img/bg.png) no-repeat;
 	background-size: cover;
-/*	margin: 0 auto;*/
 	height: 869px;
 }
 .header__top-logo{
