@@ -7,15 +7,15 @@
 	position: absolute;
 	float: left;
 	top: 7%;
-	left: 8%;
+	left: 400px;
 	}
 	.top__menu{
 	position: absolute;
-		float: left;
+	float: left;
 	width: 630px;
 	height: 34px;
 	top: 8%;
-	left: 33%;
+	left: 750px;
 }
 .menu__a {
 	text-decoration: none;
@@ -124,7 +124,7 @@
 	.main-white {
 	width: 100%;
 	height: 1100px;
-	top: 125%;
+	top: 135%;
 }
 .main-white--pingbuller{
 	width: 360px;
@@ -182,40 +182,22 @@
 .read{
 	margin-left: 250px;
 }
-	
+.trust-marks{
+	display: block;
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 20%;
+}
 .main-white--TM{
-	top: 45%;
-	left: 17%;
+	display: none;
 }
-.TM:nth-child(1){
-}
-.TM:nth-child(2){
-	  left: 180%;
- }
-.TM:nth-child(3){
-	top: 0%;
-	left: 360%;
- }
-.TM:nth-child(4){
-	left: 540%;
-	top: 0%;
- }
-.TM:nth-child(5){
-	  top: 0%;
-	  left: 690%;
- }
-.TM:nth-child(6){
-	  top: 0%;
-	  left: 900%;
- }
 	.main__gray{
 	display: block;
 	position: absolute;
 	background-color: #ececec;
 	width: 100%;
 	height: 400px;
-	top: 200%;
-	
+	margin-top: 780px;
 }
 .main__gray__logo{
 	position: absolute;
@@ -291,7 +273,7 @@
 	background: url(../img/bg-footer768.jpg) no-repeat;
 	width: 100%;
 	height: 200px;
-	top: 243%;
+	margin-top: 250px;
 }
 .footer__menu{
 	display: block;
