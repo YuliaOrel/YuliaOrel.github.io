@@ -1,21 +1,16 @@
-.header{
-	background: url(../img/bg-top.jpg) no-repeat;
-	background-size: cover;
-	height: 869px;
-}
 .header__top-logo{
 	position: absolute;
 	float: left;
 	top: 7%;
-	left: 400px;
+	left: 8%;
 	}
 	.top__menu{
 	position: absolute;
-	float: left;
+		float: left;
 	width: 630px;
 	height: 34px;
-	top: 8%;
-	left: 750px;
+	top: 7%;
+	left: 33%;
 }
 .menu__a {
 	text-decoration: none;
@@ -27,7 +22,7 @@
 }
 	.header__slider-phone{
 	background-color: rgba(0, 0, 0, 0.2);
-	top: 29%;
+/*	top: 25%;*/
 	width: 100%;
 	height: 359px;
 }
@@ -64,37 +59,40 @@
 	left: 60%;
 }
 	.slider__nav{
-	top: 80%;
+/*		position: absolute;*/
+	top: 70%;
 	left: 68%;
+/*		clear: both;*/
 }
 	
 	.main__purple{
 	background: url(../img/bg-purple320.jpg) no-repeat;
 	background-size: cover;
-	position: absolute;
+	position: relative;
 	width: 100%;
-	top: 88%;
-	height: 598px;
+/*	top: 88%;*/
+	height: 398px;
+		clear: both;
 	}
 .main__purple__1{
 	position: absolute;
 	width: 210px;
 	height: 213px;
-	top: 10%;
+	top: 20%;
 	left: 10%;
 }
 .main__purple__2{
 	position: absolute;
 	width: 210px;
 	height: 213px;
-	top: 10%;
+	top: 20%;
 	left: 40%;
 }
 .main__purple__3{
 	position: absolute;
 	width: 210px;
 	height: 213px;
-	top: 10%;
+	top: 20%;
 	left: 70%;
 }
 	.purple__text__1{
@@ -122,9 +120,11 @@
 	left: 142px;
 }
 	.main-white {
+		position: relative;
 	width: 100%;
-	height: 1100px;
-	top: 135%;
+	height: 700px;
+		clear: both;
+/*	top: 125%;*/
 }
 .main-white--pingbuller{
 	width: 360px;
@@ -144,15 +144,6 @@
 	width: 248px;
 	height: 147px;
 	padding-left: 5px;
-}
-.man{
-	background-image: url(../img/man.png);
-    background-repeat: no-repeat;
-	position: absolute;
-	width: 49px;
-	height: 49px;
-	top: 19px;
-	left: -12px;
 }
 	.img-black{
 	position: absolute;
@@ -193,11 +184,13 @@
 }
 	.main__gray{
 	display: block;
-	position: absolute;
+	position: relative;
 	background-color: #ececec;
 	width: 100%;
 	height: 400px;
-	margin-top: 780px;
+		clear: both;
+/*	top: 200%;*/
+	
 }
 .main__gray__logo{
 	position: absolute;
@@ -269,11 +262,12 @@
 	margin-top: 5px;
 }
 .footer{
-	position: absolute;
+	position: relative;
 	background: url(../img/bg-footer768.jpg) no-repeat;
 	width: 100%;
 	height: 200px;
-	margin-top: 250px;
+	clear: both;
+/*	top: 243%;*/
 }
 .footer__menu{
 	display: block;
