@@ -1,0 +1,33 @@
+body{
+	background-color: lightgray;
+}
+.clockform{
+	margin: 10%;
+}
+.clear{
+		font-size:45px;
+		color: black;
+		width: 150px;
+	   	background-color: greenyellow;
+		border-radius: 15px;
+	padding: 1%;
+}
+.clock{
+		font-size:45px;
+	text-align: center;
+	background-color: floralwhite;
+		color: black;
+		width: 250px;
+		height: 60px;
+		border:2px solid #000000;
+		border-radius: 15px;
+	padding: 1%;
+}
+.start{
+		font-size:45px; 
+	   	color: black; 
+	   	width: 250px;
+	   	background-color: skyblue;
+		border-radius: 15px;
+	padding: 1%;
+}
