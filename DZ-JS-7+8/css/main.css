@@ -1,0 +1,60 @@
+body{
+	background-image: url(../img/art.jpg);
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+}
+.window_1{
+	margin: 100px auto;
+	width: 550px;
+	height: 370px;
+	background-color: skyblue;
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+.tab li{
+	font-size: 17px;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-top: 10px;
+	display: inline-block;
+	height: 40px;
+	width: 31%;
+	background-color: dodgerblue;
+	border: 2px solid yellow;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+	cursor: pointer;
+}
+.content{
+	height: 285px;
+	width: 495px;
+	display: none;
+	padding: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+.window_2{
+	font-family: "Arial", sans-serif;
+	margin: 0 auto;
+	padding-left: 10px;
+	width: 550px;
+	height: 270px;
+	background-color: lightyellow;
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+.window_2 input{
+	margin: 20px 10px 20px 5px;
+	background-color: aliceblue;
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+.window_2 label{
+	width: 180px;
+	padding: 5px;
+	display: none; 
+	font-size: 12px;
+	border: 2px solid blue;
+	border-radius: 5px;
+
+}
