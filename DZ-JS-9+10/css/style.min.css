@@ -1,0 +1,9 @@
+.form2, .wraper {
+	margin: 50px;
+	background-color: lightgoldenrodyellow;
+	padding: 10px;
+	font-size: 25px;
+}
+label {
+    cursor: pointer;
+}

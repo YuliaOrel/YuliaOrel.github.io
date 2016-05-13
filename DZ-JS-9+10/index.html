@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JS-9+10</title>
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/reset.css">
+
+	<script type="text/javascript" src="http://www.xiper.net/js/jquery.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+	
+	<div class="text">
+	<p>WILD WORLD</p>
+	</div>
+	
+	<div id="slider">
+		<div class="slide"><img src="img/4.jpg" alt=""></div>
+		<div class="slide"><img src="img/3.jpg" alt=""></div>
+		<div class="slide"><img src="img/2.jpg" alt=""></div>
+		<div class="slide"><img src="img/1.jpg" alt=""></div>
+	</div>
+	
+	<div class="text">
+		<p >
+			Очень часто настоящий друг подает тебе не руку, а лапу!
+		</p>
+	</div>
+	<nav>
+		<ul class="menu clearfix">
+			<li><a href="#"> Главная</a></li>
+			<li><a href="#"> Птицы</a></li>
+			<li class="dropdown"><a href="#"> Животные</a>
+				<ul class="sub-menu" style="display: none;">
+                <li><a href="#">Кошки</a></li>
+                <li><a href="#">Хомячки</a></li>
+                <li><a href="#">Кролики</a></li>
+                <li class="dropdown">
+                    <a href="#">Собаки</a>
+                    	<ul class="sub-menu" style="display: none;">
+                        <li><a href="#">Сеттер</a></li>
+                        <li class="dropdown">
+                            <a href="#">Спаниель</a>
+                            	<ul class="sub-menu">
+                                <li><a href="#">Русский</a></li>
+                                <li><a href="#">Английский</a></li>
+                                <li><a href="#">Американский</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+					</li>
+            </ul>
+			</li>
+			<li><a href="#">Насекомые</a></li>
+			<li><a href="#">Рептилии</a></li>
+		</ul>
+	</nav>
+	
+	
+	<div>
+	<p class="info">
+Интересная информация о домашних животных, собаках, кошках, грызунах, птицах, рептилиях, рыбках, и других (пушистых и не очень) друзьях человека, постоянно обновляется.<br>
+Мы опишем виды, породы, специализация, особенности, уход, и даже варианты кличек. Также мы будем публиковать и рассматривать интересные темы, новости и статьи, которые касаются домашних животных.<br>
+Для начала нужно решить, какой питомец подходит именно вам. Умница-собака, гордая кошка, веселый попугайчик, милый хомяк, тихие рыбки, а может быть, экзотическая игуана или даже маленький крокодил! У каждого вида есть свои особенности, которые и стоит рассматривать относительно ваших потребностей.
+		</p>
+	</div>
+	
+	
+	
+	<form action="../faq/select-action.php" method="post">
+        <h1 class="vibor">Какое ваше любимое животное?</h1>        
+        <select name="timepass" class="custom-select">
+            <option>Выбрать</option>
+            <option>Собака</option>
+            <option>Кошка</option>
+            <option>Лошадь</option>
+            <option>Таракан</option>
+            <option>Змея</option>
+            <option>Ящерица</option>                
+        </select>
+        <input class="submit" type="submit" value="Подтвердить">
+    </form>
+	
+	<div>
+	<p class="info">
+Отнеситесь внимательно к выбору друга. Ведь вы не только будете обязаны перепланировать свой досуг, и, как вариант, лишаете себя некой доли комфорта, но и берете на себя ответственность за судьбу живого существа. Не игрушки, а настоящего организма из плоти и крови, который, возможно, и не способен мыслить столь же осознанно и последовательно как человек, но все же обладает мышлением, испытывает эмоции и физические ощущения. <br>Поверьте, если вы вложите в свое домашнее животное душу и любовь — оно ответит вам в десятикратном размере.
+		</p>
+	</div>
+
+<div class="main">
+	<form class="form2" action="#">
+	<div><label for="ch1">Птицы</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+	<div><label for="ch2">Животные</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+	<div><label for="ch3">Рептилии</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+	</form>
+	
+</div>
+	
+	
+	<div class="wraper">
+	<div>
+	<input type="checkbox" id="test-check1" />
+	<label for="test-check1">Кошки:</label>	
+</div>
+<div>
+	<input type="checkbox" id="test-check2" />
+	<label for="test-check2">Собаки:</label>	
+</div>
+	</div>
+	
+
+<div>
+	<p class="info">
+Конечно же, прежде чем решиться на радость завести себе питомца, нужно сто раз подумать, потому что звери дома — это сложно, иногда устаешь от них. Уход за домашним животным, как правило, сходен с заботой о маленьком ребенке. <br>Но любимец принесет столько тепла и любви в вашу жизнь, что это того стоит. <br>И главное, помните – Мы в ответе за тех, кого приручили!
+		</p>
+	</div>
+	
+	
+	
+</body>
+</html>
