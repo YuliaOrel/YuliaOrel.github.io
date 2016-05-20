@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>JS-13+14</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/reset.css">
+    </head>
+    <body> 
+
+<div class='center'>
+<br>
+<table class='width'>
+<tr>
+<td valign='top'>
+
+<div class="text">
+
+<script>
+//передача элементов по id "a" и "b"
+window.onload = function()
+{
+a = document.getElementById("a");
+b = document.getElementById("b");
+} 
+
+//показываем окно функции "showA"
+function showA()
+{
+//Задаем прозрачность и блокируем дисплей
+//элемента "b"
+b.style.filter = "alpha(opacity=80)";
+b.style.opacity = 0.8;
+b.style.display = "block";
+// Задаем блокироваку и отступ сверху в 200px
+//элемента "a"
+a.style.display = "block";
+a.style.top = "200px";
+}
+
+//Вызываем функцию "hideA", которая будет скрывать окно
+//для элементов "a" и "b"
+function hideA()
+{
+b.style.display = "none";
+a.style.display = "none";
+}      
+</script>
+
+<a href="#" onclick="showA();" class="pages">Результаты теста</a>
+
+<div id="a"><div id="windows">
+Поздравляю! Вы успешно прошли тест!!
+<a href="#" onclick="hideA();" class="pages" 
+style="float: right;">Закрыть</a>
+</div></div>
+<div id="b"></div>
+
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+		
+		<script src="js/script.js"></script>
+    </body>
+</html>
