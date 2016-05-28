@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>JS-15+16</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<script src="js/jQ.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+		<script src="js/script.js"></script>
+    </head>
+    <body> 
+<img src="img/google.png" alt="google" class="logo">
+	<form action="">
+		<input id="search_query" type="text" name="search_query">
+		<input type="submit" id="submit" value="Search" name="search">
+	</form>
+
+
+
+	<script type="text/html" id="results">
+		<% for(var i=0;i<20;++i){%>
+		<div class="search_result">
+		<img src="<%=data.hits[i].webformatURL%>" alt="">
+			
+		</div>
+		<% }%>
+	</script> 
+
+		
+<!--		<script src="js/script.js"></script>-->
+    </body>
+</html>
