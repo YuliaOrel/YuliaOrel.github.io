@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+body{
+  background-color: skyblue;
+}
+.wrapper{
+  margin:50px auto;
+  width: 700px;
+  background-color: #fff;
+  padding-bottom:30px;
+
+}
+.header{
+  display:block;
+  margin: 0px auto;
+	text-align: center;
+  padding-top:40px;
+  width: 320px;
+	font-size: 20px;
+}
+.questBox{
+  float:left;
+    margin: 30px  0px  20px 100px;
+  width: 70%;
+  height:150px;
+  
+}
+.inp{
+  float: left;
+  clear: left;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.inp_label{
+  display: block;
+  position: relative;
+  top:0px;
+  margin:0px 0px 10px 40px;
+}
+.Lastform{
+  margin:0 auto;
+  width:300px;
+}
+.Button{
+  display:block;
+  margin:100px auto  0px auto;
+  padding:3px 40px; 
+	background-color: azure;
+	border-radius: 10px; 
+   box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+/***********WINDOW********/
+.window{
+  width:400px;
+  height:150px;
+  position:fixed;
+  top:50%;margin-top:-75px;
+  left:50%; margin-left:-200px;
+  z-index: 2;
+  background-color: aliceblue;
+   border-radius: 10px; 
+   box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+.window p{
+  width: 350px;
+  display:block;
+  margin:50px auto 0px auto;
+}
+.overlay{
+  width:100%;
+  position:fixed;
+  height:10000px;
+  z-index:1;
+  background-color: rgba(0,0,0,0.5);
+  top:0;
+  visibility:hidden;
+}
+#closeModal{
+    display:block;
+  margin:30px auto  0px auto;
+  padding:3px 40px;
+  border-radius: 5px; 
+  background-color: #FBFBFB;
+}
